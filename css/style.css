@@ -1,0 +1,70 @@
+/* custom css starts here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    padding: 0;
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p {
+    line-height: 0.8;
+}
+body{
+    font-family: 'Playfair Display', serif;
+}
+/* custom css ends here */
+
+/* Navbar css starts here */
+.nav-item{
+    padding-left: 60px;
+}
+.nav-link{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #242424;
+}
+.nav-link:hover{
+    color: #242424;
+}
+.drawer{
+    padding-left: 40px;
+}
+.header-right a{
+    color: #242424;
+}
+/* Navbar css ends here */
+
+/* Banner css starts here */
+.banner-text-box{
+    margin-right: -100px;
+    z-index: 999;
+}
+.banner-text{
+    background-color: red;
+    width: 570px;
+    height: 470px;
+    padding: 72px 101px 75px 97px;
+    /* background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(50px); */
+}
+.banner-text h1{
+    color: #244D4D;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 72px;
+}
+.banner-text h6{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #5F5F64;
+}
+/* Banner css ends here */
