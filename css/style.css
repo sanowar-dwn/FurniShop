@@ -81,14 +81,19 @@ body{
 
 /* Brnad css starts here */
 #brand{
-    padding: 55px 240px;
+    /* padding: 55px 240px; */
     background-color:#F4F6F6;;
 }
 .brand-header {
     font-weight: 500;
     font-size: 20px;
     color: #031745;
-    padding-bottom: 40px;
+    /* padding-bottom: 40px; */
+}
+.brand-slider{
+    display: flex;
+    justify-content: space-between;
+    
 }
 /* Brand css ends here */
 
@@ -401,7 +406,7 @@ footer{
 .footer-top{
     padding-top: 130px;
     padding-bottom: 60px;
-    border-bottom: #ffff;
+    border-bottom: 1px solid rgb(255, 255, 255, .1);
 }
 .footer-header h1{
     color: #ffff;
@@ -432,5 +437,40 @@ footer{
     transition: all linear .3s;
     background-color: white;
     color: #3A5F5F;
+}
+.footer-bottom{
+    padding-top: 90px;
+}
+.footer-1 h4{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #EEEEEE;
+    padding-top: 19px;
+    padding-bottom: 10px;
+}
+.footer-icons i{
+    margin: 0 5px;
+    color: #ffff;
+}
+.footer-link-head h2{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffff;
+    padding-bottom: 11px;
+}
+.footer-link-head h6{
+    padding-top: 6px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffff;
 }
 /* Footer css ends here */
