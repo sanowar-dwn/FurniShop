@@ -1,0 +1,293 @@
+/* Large devices (portrait phones, less than 1400px) */
+@media(min-width:1200px) and (max-width:1399.98px){
+
+}
+/* Large devices (portrait phones, less than 1200px) */
+@media(min-width:992px) and (max-width:1199.98px){
+    .banner-text h1 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .banner-text {
+        width: 470px;
+        height: 370px;
+        padding: 90px 101px 75px 97px;
+    }
+    .banner-text h6 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    }
+    .deals-header h2 {
+        font-size: 36px;
+        line-height: 53px;
+    }
+    .about-img img{
+        width: 100%;
+    }
+    .review-arrows {
+        top: 75%;
+    }
+    .review-star {
+        position: absolute;
+        top: 20%;
+        left: 8%;
+    }
+}
+/* Mediuam devices (portrait phones, less than 992px) */
+@media(min-width:768px) and (max-width:991.98px){
+    .banner-text h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .banner-text {
+        width: 470px;
+        height: 270px;
+        padding: 90px 101px 75px 97px;
+    }
+    .banner-text h6 {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .banner-arrows {
+        right: 0%;
+    }
+    #brand {
+        padding: 55px 150px;
+    }
+    .deal-first{
+        padding-bottom: 20px;
+    }
+    .about-img img{
+        width: 100%;
+    }
+    .review-header h1 {
+        font-size: 45px;
+        line-height: 45px;
+        padding-bottom: 15px;
+    }
+    .review-header h6 {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .review-writing {
+       padding-left: 0;
+    }
+    .review-star {
+        left: 0%;
+    }
+    .review-arrows {
+        top: 72%;
+        left: 70%;
+    }
+    #review{
+        background-size: contain;
+    }
+    .review-header {
+        padding: 115px 0;
+    }
+    .footer-links{
+        padding-bottom: 20px;
+    }
+    .footer-buttons a {
+        padding: 19px 30px;
+    }
+    .footer-header h1 {
+        font-size: 34px;
+        line-height: 40px;
+    }
+}
+/* Small devices (portrait phones, less than 768px) */
+@media(min-width:576px) and (max-width:767.98px){
+    .banner-text h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .banner-text {
+        width: 370px;
+        height: 240px;
+        padding: 110px 20px 20px 20px;
+    }
+    .banner-text h6 {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .banner-text::after {
+        content: url("../images/banner-dots.png");
+        position: absolute;
+        top: -8%;
+        left: 20%;
+    }
+    .banner-arrows {
+        right: 0%;
+    }
+    #brand {
+        padding: 55px 150px;
+    }
+    .deal-first{
+        padding-bottom: 20px;
+    }
+    
+    .about-img img{
+        width: 100%;
+    }
+    .review-header h1 {
+        font-size: 45px;
+        line-height: 45px;
+        padding-bottom: 15px;
+    }
+    .review-header h6 {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .review-writing {
+       padding-left: 0;
+    }
+    .review-star {
+        left: 0%;
+    }
+    .review-arrows {
+        top: 80%;
+        left: 48%;
+    }
+    #review{
+        background-size: contain;
+    }
+    .review-header {
+        padding: 115px 0;
+    }
+    .footer-links{
+        padding-bottom: 20px;
+    }
+    .footer-buttons a {
+        padding: 19px 30px;
+    }
+    .footer-header h1 {
+        font-size: 34px;
+        line-height: 40px;
+    }
+    
+}
+/*XS Device */
+@media(max-width:575px){
+    .banner-text::after {
+        content: '';
+    }
+    .banner-text h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .banner-text {
+        width: 270px;
+        height: 140px;
+        padding: 4px 20px 4px 20px;
+    }
+    .banner-text h6 {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .banner-arrows {
+        top: 25%;
+        right: 0%;
+    }
+    #brand {
+        padding: 55px 40px;
+    }
+    .deal-item h1{
+        text-align: center;
+    }
+    .deal-item h2{
+        text-align: center;
+    }
+    .deal-item h6{
+        text-align: center;
+    }
+    .deals-header h2{
+        text-align: center;
+    }
+    .deals-header h6{
+        text-align: center;
+    }
+    .deal-first{
+        padding-bottom: 20px;
+    }
+    .about-button{
+        justify-content: center!important;
+    }
+    .about-header h1{
+        text-align: center;
+    }
+    .about-header h6{
+        text-align: center;
+    }
+    .about-item h1{
+        text-align: center;
+    }
+    .about-item h4{
+        text-align: center;
+    }
+    .about-item h6{
+        text-align: center;
+    }
+    .about-img img{
+        width: 100%;
+    }
+    .top-items{
+        padding-bottom: 30px;
+    }
+    .review-header h1 {
+        font-size: 45px;
+        line-height: 45px;
+        padding-bottom: 15px;
+    }
+    .review-header h6 {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .review-writing {
+       padding-left: 0;
+    }
+    .review-star {
+        left: 5%;
+    }
+    .review-arrows {
+        top: 80%;
+        left: 55%;
+    }
+    .review-writing {
+        padding-left: 42px;
+    }
+    #review{
+        background-size: contain;
+    }
+    .review-header {
+        padding: 115px 0;
+    }
+    .footer-links{
+        padding-bottom: 20px;
+    }
+    .footer-buttons a {
+        padding: 19px 30px;
+    }
+    .footer-header h1 {
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .footer-link-head h2{
+        text-align: center!important;
+    }
+    .footer-link-head h6{
+        text-align: center!important;
+    }
+    .footer-1{
+        text-align: center!important;
+    }
+    .footer-1 h4{
+        text-align: center!important;
+    }
+    
+}
+
