@@ -40,8 +40,8 @@
                   </li>
                 </ul>
                 <form class="d-flex header-right" role="search">
-                    <a href="#"><i class="fa fa-search mx-4" aria-hidden="true"></i></a>
-                    <a href="#"><img src="images/nav-icon.png" alt=""></a>
+                    <a href="#"><i class="fa fa-search mx-4 nav-search" aria-hidden="true"></i></a>
+                    <a href="#"><img src="images/nav-icon.png" class="nav-drawer" alt=""></a>
                 </form>
               </div>
             </div>
@@ -101,28 +101,28 @@
     <h3 class="text-center brand-header">TRUSED BY OVER 1K+ COMPANIES</h3>
     </div>
     <div class="row d-flex justify-content-between brand-slider">
-      <div class="col-lg-2 col-md-2">
+      <div class="col-lg-2 col-md-2 col-12">
         <img src="images/brand1.png" alt="">
       </div>
-      <div class="col-lg-2 col-md-2">
+      <div class="col-lg-2 col-md-2 col-12">
         <img src="images/brand-2.png" alt="">
       </div>
-      <div class="col-lg-2 col-md-2">
+      <div class="col-lg-2 col-md-2 col-12">
         <img src="images/brand-3.png" alt="">
       </div>
-      <div class="col-lg-2 col-md-2">
+      <div class="col-lg-2 col-md-2 col-12">
         <img src="images/brand-2.png" alt="">
       </div>
-      <div class="col-lg-2 col-md-2">
+      <div class="col-lg-2 col-md-2 col-12">
         <img src="images/brand-3.png" alt="">
       </div>
-      <div class="col-lg-2 col-md-2">
+      <div class="col-lg-2 col-md-2 col-12">
         <img src="images/brand-5.png" alt="">
       </div>
-      <div class="col-lg-2 col-md-2">
+      <div class="col-lg-2 col-md-2 col-12">
         <img src="images/brand-4.png" alt="">
       </div>
-      <div class="col-lg-2 col-md-2">
+      <div class="col-lg-2 col-md-2 col-12">
         <img src="images/brand-5.png" alt="">
       </div>
     </div>
@@ -240,12 +240,12 @@
 <section id="product">
   <div class="container">
     <div class="row">
-      <div class="col-lg-6">
+      <div class="col-lg-6 col-md-6">
         <div class="product-header">
           <h1>Products</h1>
         </div>
       </div>
-        <div class="col-lg-6 d-flex justify-content-end">
+        <div class="col-lg-6 col-md-6 d-flex justify-content-end align-items-center">
           <div class="product-all-arrow d-flex">
             <h2>See All</h2>
             <div class="product-arrow-box"><i class="fa fa-long-arrow-right d-flex" aria-hidden="true"></i>
@@ -256,16 +256,33 @@
     <div class="row product-bar">
       <div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center">
         <div class="product-filter">
-              <button type="button" class="product-filter-button col-2" data-filter="all">All</button>
-              <button type="button" class="product-filter-button col-2" data-filter="all">Bed</button>
-              <button type="button" class="product-filter-button col-2" data-filter="all">Sofa</button>
-              <button type="button" class="product-filter-button col-2" data-filter=".chair">Chair</button>
-              <button type="button" class="product-filter-button col-2" data-filter="all">Light</button>
+              <button type="button" class="product-filter-button" data-filter="all">All</button>
+              <button type="button" class="product-filter-button" data-filter=".bed">Bed</button>
+              <button type="button" class="product-filter-button" data-filter=".sofa">Sofa</button>
+              <button type="button" class="product-filter-button" data-filter=".chair">Chair</button>
+              <button type="button" class="product-filter-button" data-filter=".light">Light</button>
         </div>
       </div>
     </div>
     <div class="row abc">
-      <div class="col-lg-4 col-md-6 col-sm-6 col-12 mix all product-item">
+      <div class="col-lg-4 col-md-6 col-sm-6 col-12 mix all light product-item">
+        <div class="products-info">
+          <div class="product-name">
+          <h1>Hand Base Lamp</h1>
+          </div>
+          <div class="product-price d-flex align-items-center">
+            <h3>$35.00</h3>
+            <h4>$55.00</h4>
+          </div>
+        </div>
+        <div class="product-img text-center">
+          <img src="images/product-1.png" alt="">
+        </div>
+        <div class="cart-icon">
+          <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6 col-12 mix light all product-item">
         <div class="products-info">
           <div class="product-name">
           <h1>Hand Base Lamp</h1>
@@ -299,7 +316,7 @@
           <i class="fa fa-shopping-cart" aria-hidden="true"></i>
         </div>
       </div>
-      <div class="col-lg-4 col-md-6 col-sm-6 col-12 mix all chair product-item">
+      <div class="col-lg-4 col-md-6 col-sm-6 col-12 mix all light product-item">
         <div class="products-info">
           <div class="product-name">
           <h1>Hand Base Lamp</h1>
@@ -316,7 +333,7 @@
           <i class="fa fa-shopping-cart" aria-hidden="true"></i>
         </div>
       </div>
-      <div class="col-lg-4 col-md-6 col-sm-6 col-12 mix all product-item">
+      <div class="col-lg-4 col-md-6 col-sm-6 col-12 mix all sofa product-item">
         <div class="products-info">
           <div class="product-name">
           <h1>Hand Base Lamp</h1>
@@ -333,7 +350,41 @@
           <i class="fa fa-shopping-cart" aria-hidden="true"></i>
         </div>
       </div>
-      <div class="col-lg-4 col-md-6 col-sm-6 col-12 mix all product-item">
+      <div class="col-lg-4 col-md-6 col-sm-6 col-12 mix all bed product-item">
+        <div class="products-info">
+          <div class="product-name">
+          <h1>Hand Base Lamp</h1>
+          </div>
+          <div class="product-price d-flex align-items-center">
+            <h3>$35.00</h3>
+            <h4>$55.00</h4>
+          </div>
+        </div>
+        <div class="product-img text-center">
+          <img src="images/product-3.png" alt="">
+        </div>
+        <div class="cart-icon">
+          <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6 col-12 mix all chair product-item">
+        <div class="products-info">
+          <div class="product-name">
+          <h1>Hand Base Lamp</h1>
+          </div>
+          <div class="product-price d-flex align-items-center">
+            <h3>$35.00</h3>
+            <h4>$55.00</h4>
+          </div>
+        </div>
+        <div class="product-img text-center">
+          <img src="images/product-3.png" alt="">
+        </div>
+        <div class="cart-icon">
+          <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6 col-12 mix all chair product-item">
         <div class="products-info">
           <div class="product-name">
           <h1>Hand Base Lamp</h1>
@@ -436,7 +487,7 @@
   <div class="container">
     <div class="row footer-top">
       <div class="col-lg-6 col-md-6 col-sm-12 col-12 footer-header">
-        <h1 class="text-sm-center ">Start your business today for $0+ state fees.</h1>
+        <h1>Start your business today for $0+ state fees.</h1>
       </div>
       <div class="col-lg-6 col-md-6 col-sm-8 col-12 m-sm-auto d-flex justify-content-end">
         <div class="footer-buttons">

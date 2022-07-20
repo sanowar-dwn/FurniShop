@@ -33,9 +33,33 @@
         top: 20%;
         left: 8%;
     }
+    .review-header h1 {
+        font-size: 52px;
+        line-height: 60px;
+    }
+    .banner-arrows {
+        right: 1%;
+    }
 }
 /* Mediuam devices (portrait phones, less than 992px) */
 @media(min-width:768px) and (max-width:991.98px){
+    .nav-link{
+        text-align: center;
+    }
+    .nav-drawer{
+        display: none;
+    }
+    .navbar-collapse{
+        background-color: aliceblue;
+        padding: 30px;
+    }
+    .nav-search{
+        text-align: center;
+    }
+    .navbar-toggler:focus{
+        outline: none;
+        box-shadow: none!important;
+    }
     .banner-text h1 {
         font-size: 30px;
         line-height: 35px;
@@ -81,11 +105,14 @@
         top: 72%;
         left: 70%;
     }
-    #review{
-        background-size: contain;
-    }
     .review-header {
         padding: 115px 0;
+    }
+    .review-star i {
+        padding: 12px;
+    }
+    .review-area{
+        background-size: contain;
     }
     .footer-links{
         padding-bottom: 20px;
@@ -100,6 +127,23 @@
 }
 /* Small devices (portrait phones, less than 768px) */
 @media(min-width:576px) and (max-width:767.98px){
+    .nav-link{
+        text-align: center;
+    }
+    .nav-drawer{
+        display: none;
+    }
+    .navbar-collapse{
+        background-color: aliceblue;
+        padding: 30px;
+    }
+    .nav-search{
+        text-align: center;
+    }
+    .navbar-toggler:focus{
+        outline: none;
+        box-shadow: none!important;
+    }
     .banner-text h1 {
         font-size: 20px;
         line-height: 30px;
@@ -152,7 +196,7 @@
         top: 80%;
         left: 48%;
     }
-    #review{
+    .review-area{
         background-size: contain;
     }
     .review-header {
@@ -172,6 +216,29 @@
 }
 /*XS Device */
 @media(max-width:575px){
+    .nav-link{
+        text-align: center;
+    }
+    .nav-drawer{
+        display: none;
+    }
+    .navbar-collapse{
+        background-color: aliceblue;
+        padding: 30px;
+    }
+    .nav-search{
+        text-align: center;
+    }
+    .navbar-toggler:focus{
+        outline: none;
+        box-shadow: none!important;
+    }
+    .deal-item h2 {
+        padding-top: 10px;
+    }
+    .deal-item{
+        padding-bottom: 30px;
+    }
     .banner-text::after {
         content: '';
     }
@@ -191,10 +258,15 @@
     }
     .banner-arrows {
         top: 25%;
-        right: 0%;
+        right: 2%;
+    }
+    .top-to-btm {
+        position: absolute;
+        bottom: 10%;
+        right: 6%;
     }
     #brand {
-        padding: 55px 40px;
+        padding: 55px 24px;
     }
     .deal-item h1{
         text-align: center;
@@ -287,6 +359,9 @@
     }
     .footer-1 h4{
         text-align: center!important;
+    }
+    .top-items:first-child{
+        padding-bottom: 30px;
     }
     
 }
