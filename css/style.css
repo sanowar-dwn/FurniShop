@@ -357,6 +357,7 @@ body{
 
 /* Review css starts here */
 .review-area{
+    background-color: #F4F6F6;
     background-image: url("../images/review-bg.png");
     height: 100%;
     width: 100%;
@@ -385,7 +386,8 @@ body{
     padding: 0 15px;
 }
 .reviews{
-    padding-bottom: 203px;
+    padding-bottom: 115px;
+    margin-bottom: 85px;
 }
 .review-image{
     padding-right: 40px;
@@ -394,7 +396,7 @@ body{
 .review-star {
     position: absolute;
     top: 20%;
-    left: 22%;
+    left: 35%;
 }
 .review-writing{
     padding-left: 60px;
@@ -448,8 +450,8 @@ body{
 }
 .review-arrows {
     position: absolute;
-    top: 70%;
-    left: 47%;
+    top: 75%;
+    left: 54%;
 }
 .review-arrows i{
     padding: 24px;
@@ -489,14 +491,14 @@ footer{
     letter-spacing: 0em;
     text-align: center;
     padding: 19px 47px;
-    color: white;
-    background-color: #3A5F5F;
+    color: #3A5F5F;
+    background-color: white;
     border-radius:30px;
 }
 .footer-buttons a:hover{
     transition: all linear .3s;
-    background-color: white;
-    color: #3A5F5F;
+    background-color: #3A5F5F;
+    color: white;
 }
 .footer-bottom{
     padding-top: 90px;

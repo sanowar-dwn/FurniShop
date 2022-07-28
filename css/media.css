@@ -13,6 +13,9 @@
         height: 370px;
         padding: 90px 101px 75px 97px;
     }
+    .banner-arrows {
+        right: 5%;
+    }
     .banner-text h6 {
     font-weight: 400;
     font-size: 18px;
@@ -25,20 +28,30 @@
     .about-img img{
         width: 100%;
     }
-    .review-arrows {
-        top: 75%;
-    }
     .review-star {
-        position: absolute;
         top: 20%;
-        left: 8%;
+        left: 23%;
     }
     .review-header h1 {
         font-size: 52px;
         line-height: 60px;
     }
-    .banner-arrows {
-        right: 1%;
+    .review-arrows {
+        top: 79%;
+        left: 55%;
+    }
+    .top-to-btm {
+        position: absolute;
+        bottom: 12%;
+        right: 6%;
+    }
+    .top-to-btm i {
+        background: rgba(255, 255, 255, 0.4);
+        /* backdrop-filter: blur(50px); */
+        padding: 38px;
+        color: #ffff;
+        width: 20px;
+        height: 28.5px;
     }
 }
 /* Mediuam devices (portrait phones, less than 992px) */
@@ -215,7 +228,7 @@
     
 }
 /*XS Device */
-@media(max-width:575px){
+@media(min-width:411px) and (max-width:575px){
     .nav-link{
         text-align: center;
     }
@@ -307,6 +320,9 @@
     .about-img img{
         width: 100%;
     }
+    .product-filter-button {
+        padding-right: 40px;
+    }
     .top-items{
         padding-bottom: 30px;
     }
@@ -326,17 +342,20 @@
         left: 5%;
     }
     .review-arrows {
-        top: 80%;
+        top: 85%;
         left: 55%;
     }
     .review-writing {
         padding-left: 42px;
     }
-    #review{
+    .review-area{
         background-size: contain;
     }
     .review-header {
         padding: 115px 0;
+    }
+    .review-image{
+        justify-content: center!important;
     }
     .footer-links{
         padding-bottom: 20px;
@@ -362,6 +381,168 @@
     }
     .top-items:first-child{
         padding-bottom: 30px;
+    }
+    .footer-button-group{
+        justify-content: center!important;
+    }
+    
+}
+@media(max-width:412px){
+    .nav-link{
+        text-align: center;
+    }
+    .nav-drawer{
+        display: none;
+    }
+    .navbar-collapse{
+        background-color: aliceblue;
+        padding: 30px;
+    }
+    .nav-search{
+        text-align: center;
+    }
+    .navbar-toggler:focus{
+        outline: none;
+        box-shadow: none!important;
+    }
+    .deal-item h2 {
+        padding-top: 10px;
+    }
+    .deal-item{
+        padding-bottom: 30px;
+    }
+    .banner-text::after {
+        content: '';
+    }
+    .banner-text h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .banner-text {
+        width: 270px;
+        height: 140px;
+        padding: 4px 20px 4px 20px;
+    }
+    .banner-text h6 {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .banner-arrows {
+        top: 25%;
+        right: 2%;
+    }
+    .top-to-btm {
+        position: absolute;
+        bottom: 10%;
+        right: 6%;
+    }
+    #brand {
+        padding: 55px 24px;
+    }
+    .deal-item h1{
+        text-align: center;
+    }
+    .deal-item h2{
+        text-align: center;
+    }
+    .deal-item h6{
+        text-align: center;
+    }
+    .deals-header h2{
+        text-align: center;
+    }
+    .deals-header h6{
+        text-align: center;
+    }
+    .deal-first{
+        padding-bottom: 20px;
+    }
+    .about-button{
+        justify-content: center!important;
+    }
+    .about-header h1{
+        text-align: center;
+    }
+    .about-header h6{
+        text-align: center;
+    }
+    .about-item h1{
+        text-align: center;
+    }
+    .about-item h4{
+        text-align: center;
+    }
+    .about-item h6{
+        text-align: center;
+    }
+    .about-img img{
+        width: 100%;
+    }
+    .product-filter-button {
+        padding-right: 35px;
+    }
+    .top-items{
+        padding-bottom: 30px;
+    }
+    .review-header h1 {
+        font-size: 45px;
+        line-height: 45px;
+        padding-bottom: 15px;
+    }
+    .review-header h6 {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .review-writing {
+       padding-left: 0;
+    }
+    .review-star {
+        left: 5%;
+    }
+    .review-arrows {
+        top: 85%;
+        left: 55%;
+    }
+    .review-writing {
+        padding-left: 42px;
+    }
+    .review-area{
+        background-size: contain;
+    }
+    .review-header {
+        padding: 115px 0;
+    }
+    .review-image{
+        justify-content: center!important;
+    }
+    .footer-links{
+        padding-bottom: 20px;
+    }
+    .footer-buttons a {
+        padding: 19px 30px;
+    }
+    .footer-header h1 {
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .footer-link-head h2{
+        text-align: center!important;
+    }
+    .footer-link-head h6{
+        text-align: center!important;
+    }
+    .footer-1{
+        text-align: center!important;
+    }
+    .footer-1 h4{
+        text-align: center!important;
+    }
+    .top-items:first-child{
+        padding-bottom: 30px;
+    }
+    .footer-button-group{
+        justify-content: center!important;
     }
     
 }

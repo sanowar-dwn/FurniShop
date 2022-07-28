@@ -54,6 +54,8 @@ $(function(){
       $('.banner-slider').slick({
         vertical:true,
         arrows:true,
+        autoplay: true,
+        autoplaySpeed: 3500,
         prevArrow: '.banner-up-arrow',
         nextArrow: '.banner-down-arrow',
         verticalSwiping:true,
@@ -62,6 +64,8 @@ $(function(){
       //review slider      
       $('.review-slider').slick({
         arrows:true,
+        autoplay: true,
+        autoplaySpeed: 2000,
         prevArrow: '.review-left-arrow',
         nextArrow: '.review-right-arrow',
       });
